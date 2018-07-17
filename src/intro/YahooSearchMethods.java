@@ -59,7 +59,7 @@ public class YahooSearchMethods {
 	private static void setUp(String browser, String url) {
 		switch(browser) {
 		case "chrome":
-			//System.setProperty("webdriver.chrome.driver", "/usr/jnavarro/test");
+			System.setProperty("webdriver.chrome.driver", "C:\\test_automation\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 		case "firefox":
